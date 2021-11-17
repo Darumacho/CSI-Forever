@@ -1,0 +1,61 @@
+# Copy the contents of this file into a new script position below the menu script and rename "Theme_Name" to the name of your theme folder.
+
+
+
+module GMENU
+    module Theme_Name
+      
+      # Gerenal Options
+      FONT = "Arial"             # Font used throughout theme.
+      FONT_SIZE = 21             # Font size used throughout theme.
+      WINDOW_TONE = [22,52,72,0] # Color tone of scenes that use windowskins
+    
+      # Background
+      BACK1_XY = [1,1]           # X,Y movement for background1 (default stars)
+      BACK1_OPACITY = 190        # Background opacity
+    
+      BACK2_XY = [0,0]           # X,Y movement for background2 (default top bar)
+      BACK2_OPACITY = 255        # Background opacity
+      
+      BACK3_XY = [0,0]       # X,Y movement for background2 (default bottom bar)
+      BACK3_OPACITY = 255    # Background opacity
+      
+      SCENE_BACK_OPACITY = 255  # Background opacity for other scene background
+      
+      # Command Menu
+      MENU_FONT = "Arial"        # Different font used for the menu text
+      MENU_FONT_SIZE = 21        # Size of menu text
+      MENU_TXT_COLOR = Color.new(255, 255, 255, 255)   # Color of menu text
+      MENU_TXT_OUT = Color.new(27, 57, 97, 255)     # Color of menu text outline
+      MENU_TXT_XY = [0,-2]      # X,Y offset for text in command menu
+      MENU_ICON_XY = [35,1]     # X,Y offset for icons in command menu
+      SLIDE_ICON = true         # true or false to slide icon with menu text
+      SLIDE_SPEED = 5           # Speed the menu buttons slide in and out
+      SLIDE_OFF = -30           # X Position of button when cursor not on it
+      SLIDE_ON = 0            # X Position of button when cursor is on it
+      MENU_Y_OFFSET = 45        # Distance Y from top of screen
+      MENU_WIDTH = 170          # Width reserved for the main menu.
+      
+      # Help Window
+      HELP_XY = [44,2]          # X,Y offset for help text
+      HELP_TEXT_COLOR = Color.new(200, 235, 255, 255) # Color of help text
+      
+      # Game Info Window
+      INFO_XY = [0,0]          # X,Y offset for info text
+      GAME_INFO_TXT_COLOR = Color.new(200, 235, 255, 255) # Game Info text color
+      CURRENCY_ICON = 262       # Icon used instead of currency vocab. 0 = vocab
+      
+      # Actor Status
+      STAT_COLOR = Color.new(167, 223, 248, 255) # Color used for lvl,hp,mp
+      GAUGEB_COLOR = Color.new(20, 20, 20, 255) # Color of gauge backs
+      HP_COLOR1 = Color.new(74, 197, 61, 255) # Color for hp gauge gradient
+      HP_COLOR2 = Color.new(169, 206, 89, 255)# Color for hp gauge gradient
+      MP_COLOR1 = Color.new(5, 132, 179, 255) # Color for mp gauge gradient
+      MP_COLOR2 = Color.new(40, 197, 255, 255)# Color for mp gauge gradient
+      XP_COLOR1 = Color.new(88, 147, 174, 255) # Color for xp gauge gradient
+      XP_COLOR2 = Color.new(133, 181, 203, 255)# Color for xp gauge gradient
+      TP_COLOR1 = Color.new(255, 166, 12, 255) # Color for tp gauge gradient
+      TP_COLOR2 = Color.new(255, 126, 12, 255)# Color for tp gauge gradient
+      GAUGE_FONT = "VL Gothic Regular"  # Font used for hp/mp and amounts.
+    end
+end

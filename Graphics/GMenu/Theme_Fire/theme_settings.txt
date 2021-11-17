@@ -1,0 +1,60 @@
+# This is included in this demo as an example of how to add settings for
+# another menu theme in your game.
+
+module GMENU
+    module Theme_Fire
+      
+      # Gerenal Options
+      FONT = "Arial"
+      FONT_SIZE = 21
+      WINDOW_TONE = [50,50,50,0]
+    
+      # Background
+      BACK1_XY = [1,0]
+      BACK1_OPACITY = 190
+    
+      BACK2_XY = [0,0]
+      BACK2_OPACITY = 255
+      
+      BACK3_XY = [0,0]
+      BACK3_OPACITY = 255
+      
+      SCENE_BACK_OPACITY = 255
+      
+      # Command Menu
+      MENU_FONT = "Arial"
+      MENU_FONT_SIZE = 21
+      MENU_TXT_COLOR = Color.new(255, 255, 255, 255)
+      MENU_TXT_OUT = Color.new(0, 0, 0, 255)
+      MENU_TXT_XY = [-20,-2]
+      MENU_ICON_XY = [110,0]
+      SLIDE_ICON = false
+      SLIDE_SPEED = 0
+      SLIDE_OFF = -30
+      SLIDE_ON = -30
+      MENU_Y_OFFSET = 45
+      MENU_WIDTH = 170
+      
+      # Help Window
+      HELP_XY = [10,2]
+      HELP_TEXT_COLOR = Color.new(255, 255, 255, 255)
+      
+      # Game Info Window
+      INFO_XY = [0,0]
+      GAME_INFO_TXT_COLOR = Color.new(255, 255, 255, 255)
+      CURRENCY_ICON = 245
+      
+      # Actor Status
+      STAT_COLOR = Color.new(255, 244, 119, 255)
+      GAUGEB_COLOR = Color.new(40, 20, 20, 255)
+      HP_COLOR1 = Color.new(74, 197, 61, 255)
+      HP_COLOR2 = Color.new(169, 206, 89, 255)
+      MP_COLOR1 = Color.new(5, 132, 179, 255)
+      MP_COLOR2 = Color.new(40, 197, 255, 255)
+      XP_COLOR1 = Color.new(88, 147, 174, 255)
+      XP_COLOR2 = Color.new(133, 181, 203, 255)
+      TP_COLOR1 = Color.new(255, 166, 12, 255)
+      TP_COLOR2 = Color.new(255, 126, 12, 255)
+      GAUGE_FONT = "VL Gothic Regular"
+    end
+end
